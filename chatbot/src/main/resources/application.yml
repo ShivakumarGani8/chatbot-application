@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: CHATBOT-CLIENT
+  thymeleaf:
+    prefix: classpath:/templates/
+    suffix: .html
