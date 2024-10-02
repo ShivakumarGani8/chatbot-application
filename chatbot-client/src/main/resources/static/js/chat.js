@@ -31,7 +31,7 @@ function appendMessage(message, className) {
     const chatBox = document.getElementById("chat-box");
     const messageElement = document.createElement("div");
     messageElement.classList.add(className);
-    messageElement.textContent = message;
+    messageElement.innerHTML = message; // Use innerHTML to render HTML
     chatBox.appendChild(messageElement);
     chatBox.scrollTop = chatBox.scrollHeight;
 }

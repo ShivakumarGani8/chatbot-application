@@ -1,5 +1,5 @@
 package com.shiva.chatbot.service;
 
 public interface IChatBotService {
-    public String getResponse(String message);
+    public String getResponse(String userInput);
 }
