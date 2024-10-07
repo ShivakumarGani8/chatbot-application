@@ -1,0 +1,19 @@
+server:
+  port: 8081
+spring:
+  application:
+    name : chatbot-service
+  datasource:
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/chat_bot
+    username: root
+    password: root
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+      properties:
+        hibernate.dialect: org.hibernate.dialect.MySQL5Dialect
+    show-sql: true
+  ai:
+    openai:
+      api-key: ${API_KEY}
