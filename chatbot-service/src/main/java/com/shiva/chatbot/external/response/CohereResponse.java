@@ -1,4 +1,4 @@
-package com.shiva.chatbot_service.external.response;
+package com.shiva.chatbot.external.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

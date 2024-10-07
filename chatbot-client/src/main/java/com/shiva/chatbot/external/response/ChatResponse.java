@@ -1,4 +1,4 @@
-package com.shiva.chatbot.entity.external;
+package com.shiva.chatbot.external.response;
 
 
 public class ChatResponse {

@@ -1,4 +1,4 @@
-package com.shiva.chatbot_service;
+package com.shiva.chatbot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

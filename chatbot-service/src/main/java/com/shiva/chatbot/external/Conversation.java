@@ -1,4 +1,4 @@
-package com.shiva.chatbot_service.external;
+package com.shiva.chatbot.external;
 
 import java.util.ArrayList;
 import java.util.List;

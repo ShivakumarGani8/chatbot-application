@@ -1,8 +1,8 @@
-package com.shiva.chatbot_service.service;
+package com.shiva.chatbot.service;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.shiva.chatbot_service.external.Conversation;
-import com.shiva.chatbot_service.external.response.CohereResponse;
+import com.shiva.chatbot.external.Conversation;
+import com.shiva.chatbot.external.response.CohereResponse;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;

@@ -1,4 +1,4 @@
-package com.shiva.chatbot_service;
+package com.shiva.chatbot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
