@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   application:
-    name : chatbot-service
+    name : CHATBOT-SERVICE
   datasource:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:3306/chat_bot
     username: root
